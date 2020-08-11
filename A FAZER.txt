@@ -1,0 +1,37 @@
+"atualizado em" falta espaço *
+mensagem usuario já existente desformatada e repetida *
+linhas de PPesquisa e Links Úúteis *
+Bem vindo falta hífen *
+ver sobre aumentar e diminuir fonte de texto *
+fazer alerta de titulo vazio *	(não funciona para verificar texto(conteudo) do plugin)
+criptografia * (testar todas as paginas)
+testar versão mobile * (fazer testes)
+pesquisa em noticias * (verificar case sensitive)
+
+tirar pasta extra
+criar restrição para acesso da pasta root(responsive filemanager)
+ao se copiar tabela do word não consegue-se mudar sau formatação
+organograma/slideshow/alguns botões não se enquadrando em resoluções <=1024x768
+tema claro para o site
+verificar selo w3c
+mudar key de criptografia ?
+acesso restrito ao login(apenas local) ?
+mascaramento de url com htacess ?
+incluir gzip ?
+
+revisão de texto
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+key = (d0a7e7997b6d5fcd55f4b5c32611b87cd923e88837b63bf2941ef819dc8ca282)
+	->para alteração na key, mudar nos arquivos: login.php & config.php(responsive filemanager)	
+	->todos os dados criptografados com base na key
+
+
+
+
+* = feito

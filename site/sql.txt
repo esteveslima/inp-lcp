@@ -1,0 +1,25 @@
+create table contas(
+  id integer(3) auto_increment not null,
+  usuario varchar(300) not null,
+  senha varchar(300) not null,
+  nome varchar(300) not null,
+  primary key(id,usuario)
+);
+
+create table noticias(
+  id integer(4) not null auto_increment,
+  autor varchar(50) not null,
+  titulo varchar(100) not null,
+  assunto varchar(50),
+  conteudo mediumtext,
+  publicacao datetime not null,
+  origem varchar(50) not null,
+  primary key(id,autor)
+);
+
+ALTER DATABASE sitelcp charset=utf8;
+
+insert into contas (id, usuario, senha, nome) values (null, 'admin', 'lcp', 'Admin'); 
+insert into contas (id, usuario, senha, nome) values (null, '8H09W0GPLrO/lNfBzMtjKqcC661uQnamhScRcznH0jZy7KYiTXO2qjktsUmlO8y2bASQOZfHKefnI53Kk/6xFvkJcRGDOwpQ1s/m4PDYe0sRu2gPm0lA3IZ4q+CV9/Ie', 'wttAPwrTTePL+vlIO+V/P8H5YL/JNb8Q86XK0Q9rO50OeRSnH54bFYEV+6rcfaA04/Im+/XvpZeVlpSo0fj98tpGToS5c7mkAdNvkF6lRbwJNUSyrpbnSqUxC49IL8n7', 'jae8qJfbeKScWk6374j127s3jDL5RuX7v3MdrANl235i8n9qJC8h6XGMVssTKMYVu/48dkdM7zZSdg1nZ/vP/ZBuVBnraFmbWuELjNOLmEZHnFYBWaN1GV98KVsnqQX8');
+
+insert into noticias (id, autor, titulo, assunto, conteudo, publicacao, origem) values (null, 'admin', 'noticia', null, null, now(), '0');
